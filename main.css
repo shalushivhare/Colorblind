@@ -1,44 +1,73 @@
+/* Add border to the form */
 fieldset {
     margin: auto;
+    margin-top: 3em;
     border: 1px solid silver;
-    padding: 8px;    
+    padding: 3em;    
     border-radius: 10px;
     width: 30%;
     background-color: white !important;
 }
 
+/* adds margin to TAMUC */
 .navbar-header {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
 
+/* changes the font color, and size of TAMUC */
 .navbar-brand {
     color: goldenrod;
     font-size: 3rem;
 }
 
+/* centers the navbar links */
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
 }
 
+/* Navbar changes */
 .nav li{
     font-size: 1.75rem;
-}
-
-legend {
-    padding: 2px;    
-}
-
-.nav {
-    padding-bottom: 5em;
     background-color: white;
 }
 
+/* background color to the site */
 body {
     background-color: lightgrey;
 }
 
+/* adds a background to the navbar */
 .hero-bg {
     background-color: rgb(18, 18, 85);
+    padding-bottom: 1em;
 }
+
+/* boldens create account */
+.fieldsetname {
+    font-weight: bold;
+}
+
+/* boldens the account creation fields */
+.control-label {
+    font-weight: bold;
+}
+
+/* boldens password help field */
+.help-block {
+    font-weight: bold;
+}
+
+/* customizes the account creation button a bit */
+.btn-warning {
+    margin-top: 2em;
+    color: black;
+    background-color: goldenrod !important;
+}
+
+/* trying to remove button hover */
+.btn-warning:hover {
+    color: black;
+}
+
