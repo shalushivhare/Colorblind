@@ -1,0 +1,21 @@
+
+fieldset {
+    margin: auto;
+    border: 1px solid silver;
+    padding: 8px;    
+    border-radius: 4px;
+    width: 30%;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+legend {
+    padding: 2px;    
+}

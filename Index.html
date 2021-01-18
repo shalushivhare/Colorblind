@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-default text-center">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">TAMUC Online Colorblindess Test</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Store</a></li>
+            <li class="active"><a href="#">Account Settings</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <form class="form-horizontal" action='' method="POST">
+        <fieldset>
+          <div id="legend">
+            <legend class="">Create Your Account</legend>
+          </div>
+          <div class="control-group">
+            <label class="control-label"  for="firstname">First Name</label>
+            <div class="controls">
+              <input type="text" id="Firstname" name="firstname" placeholder="" class="input-xlarge">
+            </div>
+          </div>
+       
+          <div class="control-group">
+            <label class="control-label" for="lastname">Last Name</label>
+            <div class="controls">
+              <input type="text" id="Lastname" name="lastname" placeholder="" class="input-xlarge">
+            </div>
+          </div>
+       
+          <div class="control-group">
+            <label class="control-label" for="email">Email Address</label>
+            <div class="controls">
+              <input type="email" id="Email" name="email" placeholder="example@email.com" class="input-xlarge">
+            </div>
+          </div>
+       
+          <div class="control-group">
+            <label class="control-label"  for="username">Username</label>
+            <div class="controls">
+              <input type="text" id="username" name="username" placeholder="Username is case sensitive" class="input-xlarge">
+            </div>
+          </div>
+       
+          <div class="control-group">
+            <label class="control-label"  for="password">Password</label>
+            <div class="controls">
+              <input type="password" id="password" name="password" placeholder="At least 6 characters" class="input-xlarge">
+              <p class="help-block">Password must contain at least the following:</p>
+              <p class="help-block">One uppercase Letter</p>
+              <p class="help-block">One Lowercase Letter</p>
+              <p class="help-block">One Number of Symbol (1,2,?,!)</p> 
+             </div>
+          </div>
+
+          <div class="control-group">
+            <label class="control-label"  for="password_confirm">Re-enter password</label>
+            <div class="controls">
+              <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
+         </div>        
+
+          <div class="control-group">
+            <div class="controls">
+              <button class="btn btn-success">Create Account</button>
+            </div>
+          </div>
+
+        </fieldset>
+    </form>
+    
+  </body>
+</html>
+
+
