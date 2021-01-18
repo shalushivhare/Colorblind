@@ -2,12 +2,14 @@ fieldset {
     margin: auto;
     border: 1px solid silver;
     padding: 8px;    
-    border-radius: 4px;
+    border-radius: 10px;
     width: 30%;
+    background-color: white !important;
 }
 
 .navbar-header {
     margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 .navbar-brand {
@@ -30,4 +32,13 @@ legend {
 
 .nav {
     padding-bottom: 5em;
+    background-color: white;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.hero-bg {
+    background-color: rgb(18, 18, 85);
 }
