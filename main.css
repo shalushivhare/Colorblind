@@ -30,7 +30,8 @@ fieldset {
 
 /* Navbar changes */
 .nav li{
-    font-size: 1.50rem;
+    font-size: 1.25rem;
+    font-weight: bold;
     background-color: white;
     border: 2px black solid;
 }
@@ -106,5 +107,21 @@ body {
 /* moves the margin down on the login screen, overrides earlier fieldset */
 .login {
     margin-top: 10em !important;
+}
+
+/* moving and styling the signup buttons */
+.signup a, .signin a {
+    float: right;
+    margin-right: 2em;
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: none;
+}
+
+/* moved the shopping cart */
+.shopping img {
+    margin-right: 2em;
+    margin-top: 2em;
 }
 
