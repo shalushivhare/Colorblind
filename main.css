@@ -3,8 +3,8 @@
 /* Add border to the form */
 fieldset {
     margin: auto;
-    margin-top: 3em;
-    border: 1px solid lightgray;
+    margin-top: 5em;
+    border: 3px black solid;
     padding: 3em;    
     border-radius: 10px;
     width: 30%;
@@ -78,6 +78,7 @@ body {
     margin-top: 2em;
     color: black;
     background-color: goldenrod !important;
+    width: 10em;
 }
 
 /* trying to remove button hover */
@@ -85,11 +86,25 @@ body {
     color: black;
 }
 
+/* adds some margin to the top of the TAMUC logo */
 .tamuclogo {
     margin-top: 15px;
 }
 
+/* moves the forgot username to the left */
+.forgotuser {
+    font-weight: bold;
+    float: left
+}
 
+/* moves the forgot passwork to the right */
+.forgotpass {
+    font-weight: bold;
+    float: right;
+}
 
-
+/* moves the margin down on the login screen, overrides earlier fieldset */
+.login {
+    margin-top: 10em !important;
+}
 
