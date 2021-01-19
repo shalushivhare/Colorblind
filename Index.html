@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="main.css" type="text/css"/>
   </head>
   <body>
-
     <div class="hero-bg">
     <nav class="navbar navbar-dark text-center">
         <div class="container-fluid">
+            <div class="tamuclogo">
+                <a href="#"><img class="pull-left" src="logolion.png" alt="shoppingcart" width="175" height="125"></a>
+            </div>
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">TAMUC Online Colorblindess Test</a>
+            <a class="navbar-brand" href="#">Online Colorblindess Test</a><img src="Set of Eyes.png" alt= "eyes" height= "150" width= "200">
+            <div class="shopping">
+                <a href="#"><img class="pull-right" src="shopping-cart-48.png" alt="shoppingcart" width="65" height="65"></a>
+            </div>
           </div>
-          <ul class="nav navbar-nav ml-auto mx-auto">
+          <ul class="nav navbar-nav navbar-center">
             <li><a href="#">Home</a></li>
             <li><a href="#">How It Works</a></li>
             <li><a href="#">Store</a></li>
@@ -24,9 +29,9 @@
             <li><a href="#">Support</a></li>
           </ul>
         </div>
+      
       </nav>
     </div>
-
       <form class="form-horizontal" action='' method="POST">
         <fieldset>
           <div id="legend">
@@ -38,54 +43,49 @@
               <input type="text" id="Firstname" name="firstname" placeholder="" class="input-xlarge">
             </div>
           </div>
-       
           <div class="control-group">
             <label class="control-label" for="lastname">Last Name</label>
             <div class="controls">
               <input type="text" id="Lastname" name="lastname" placeholder="" class="input-xlarge">
             </div>
           </div>
-       
           <div class="control-group">
             <label class="control-label" for="email">Email Address</label>
             <div class="controls">
               <input type="email" id="Email" name="email" placeholder="example@email.com" class="input-xlarge">
             </div>
           </div>
-       
           <div class="control-group">
             <label class="control-label"  for="username">Username</label>
             <div class="controls">
               <input type="text" id="username" name="username" placeholder="Username is case sensitive" class="input-xlarge">
             </div>
           </div>
-       
           <div class="control-group">
             <label class="control-label"  for="password">Password</label>
             <div class="controls">
-              <input type="password" id="password" name="password" placeholder="At least 6 characters" class="input-xlarge">
-              <p class="help-block">Password must contain at least the following:</p>
+              <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+              <p class="help-block">Password must have atleast:</p>
+              <p class="help-block">6 Characters</p>
               <p class="help-block">One uppercase Letter</p>
               <p class="help-block">One Lowercase Letter</p>
-              <p class="help-block">One Number of Symbol (1,2,?,!)</p> 
+              <p class="help-block">One Number or Symbol (1,2,?,!)</p> 
              </div>
           </div>
-
           <div class="control-group">
             <label class="control-label"  for="password_confirm">Re-enter password</label>
             <div class="controls">
               <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
          </div>        
-
           <div class="control-group">
             <div class="controls">
               <button class="btn btn-warning">Create Account</button>
             </div>
           </div>
-
         </fieldset>
     </form>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
 
