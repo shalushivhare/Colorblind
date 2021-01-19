@@ -4,11 +4,11 @@
 fieldset {
     margin: auto;
     margin-top: 3em;
-    border: 1px solid silver;
+    border: 1px solid lightgray;
     padding: 3em;    
     border-radius: 10px;
     width: 30%;
-    background-color: white !important;
+    background-color:lightgray !important;
 }
 
 /* adds margin to TAMUC */
@@ -26,30 +26,36 @@ fieldset {
 }
 
 /* centers the navbar links */
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-}
+
 
 /* Navbar changes */
 .nav li{
-    font-size: 1.75rem;
-    background-color: white2;
+    font-size: 1.50rem;
+    background-color: white;
+    border: 2px black solid;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
 /* background color to the site */
 body {
-    background-color: lightgrey;
+    background-color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
 /* adds a background to the navbar */
 .hero-bg {
-    background: rgb(18, 18, 85) url("Set\ of\ Eyes.png");
+    background: rgb(18, 18, 85);
     background-position: 5% 75%;
     background-size: 300px 70px;
     background-repeat: no-repeat;
-    padding: .5em;
+    border: 8px black solid;
+    padding: none;
+    margin: none;
 }
 
 /* boldens create account */
@@ -79,8 +85,11 @@ body {
     color: black;
 }
 
-li {
-    outline: 3px black;
+.tamuclogo {
+    margin-top: 15px;
 }
+
+
+
 
 
