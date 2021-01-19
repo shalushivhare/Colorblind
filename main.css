@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
 /* Add border to the form */
 fieldset {
     margin: auto;
@@ -13,6 +15,8 @@ fieldset {
 .navbar-header {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
+    text-align: left;
+    font-weight: bold;
 }
 
 /* changes the font color, and size of TAMUC */
@@ -36,12 +40,16 @@ fieldset {
 /* background color to the site */
 body {
     background-color: lightgrey;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* adds a background to the navbar */
 .hero-bg {
-    background-color: rgb(18, 18, 85);
-    padding-bottom: 1em;
+    background: rgb(18, 18, 85) url("Eye\ Logo\ 2\ Non\ Transparent.png");
+    background-position: 1% 75%;
+    background-size: 100px 70px;
+    background-repeat: no-repeat;
+    padding: .5em;
 }
 
 /* boldens create account */
@@ -70,4 +78,9 @@ body {
 .btn-warning:hover {
     color: black;
 }
+
+li {
+    outline: 3px black;
+}
+
 
