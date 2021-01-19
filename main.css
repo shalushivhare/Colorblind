@@ -34,7 +34,7 @@ fieldset {
 /* Navbar changes */
 .nav li{
     font-size: 1.75rem;
-    background-color: white;
+    background-color: white2;
 }
 
 /* background color to the site */
@@ -45,9 +45,9 @@ body {
 
 /* adds a background to the navbar */
 .hero-bg {
-    background: rgb(18, 18, 85) url("Eye\ Logo\ 2\ Non\ Transparent.png");
-    background-position: 1% 75%;
-    background-size: 100px 70px;
+    background: rgb(18, 18, 85) url("Set\ of\ Eyes.png");
+    background-position: 5% 75%;
+    background-size: 300px 70px;
     background-repeat: no-repeat;
     padding: .5em;
 }
