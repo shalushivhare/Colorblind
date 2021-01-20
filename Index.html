@@ -6,6 +6,7 @@
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
     <title>Account Creation</title>
     <link rel="stylesheet" href="main.css" type="text/css"/>
+    <script src="script.js"></script>
   </head>
   <body>
       <div class="hero-bg">
@@ -70,7 +71,7 @@
           <div class="control-group">
             <label class="control-label"  for="password">Password</label>
             <div class="controls">
-              <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+              <input name="password" id="password" type="password" onkeyup='check();' />
               <p class="help-block">Password must have atleast:</p>
               <p class="help-block">6 Characters</p>
               <p class="help-block">One uppercase Letter</p>
@@ -81,7 +82,8 @@
           <div class="control-group">
             <label class="control-label"  for="password_confirm">Re-enter password</label>
             <div class="controls">
-              <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
+              <input type="password" name="confirm_password" id="confirm_password"  onkeyup='check();'/>
+              <span id='message'></span>
          </div>        
           <div class="control-group">
             <div class="controls">
