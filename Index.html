@@ -4,94 +4,83 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
-    <title>Account Creation</title>
+    <title>Welcome to the TAMUC Online Colorblindness Test</title>
     <link rel="stylesheet" href="main.css" type="text/css"/>
-    <script src="script.js"></script>
   </head>
   <body>
-      <div class="hero-bg">
-          <div class="tamuclogo">
-              <a href="#"><img class="pull-left" src="logolion.png" alt="shoppingcart" width="175" height="125"></a>
-          </div>
-          <div class="signup">
-              <a href="Index.html"><button type="button" class="btn btn-warning">Sign Up</button></a>
-          </div>
-          <div class="signin">
-              <a href="login.html"><button type="button" class="btn btn-warning">Sign In</button></a>
-          </div>
-          <div class="navbar-header">
-              <a class="navbar-brand" href="#">Online Colorblindess Test</a>
-          <img src="Set of Eyes.png" alt= "eyes" height= "150" width= "200">
-          <div class="shopping">
-              <a href="#"><img class="pull-right" src="shopping-cart-48.png" alt="shoppingcart" width="65" height="65"></a>
-          </div>
-          </div>
-          <nav class="navbar navbar-dark text-center">
-          <div class="container-fluid">
-            <ul class="nav navbar-nav navbar-center">
-              <li><a href="homepage.html">Home</a></li>
-              <li><a href="#">How It Works</a></li>
-              <li><a href="#">Store</a></li>
-              <li class="active"><a href="#">Account Settings</a></li>
-              <li><a href="#">Feedback</a></li>
-              <li><a href="#">Support</a></li>
-            </ul>
-          </div>
-        </nav>
+    <div class="hero-bg">
+        <div class="tamuclogo">
+            <a href="#"><img class="pull-left" src="logolion.png" alt="shoppingcart" width="175" height="125"></a>
+        </div>
+        <div class="signup">
+            <a href="accoutcreation.html"><button type="button" class="btn btn-warning">Sign Up</button></a>
+        </div>
+        <div class="signin">
+            <a href="login.html"><button type="button" class="btn btn-warning">Sign In</button></a>
+        </div>
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Online Colorblindess Test</a>
+        <img src="Set of Eyes.png" alt= "eyes" height= "150" width= "200">
+        <div class="shopping">
+            <a href="#"><img class="pull-right" src="shopping-cart-48.png" alt="shoppingcart" width="65" height="65"></a>
+        </div>
+        </div>
+        <nav class="navbar navbar-dark text-center">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav navbar-center">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Store</a></li>
+            <li class="active"><a href="#">Account Settings</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <section>
+      <div class="welcome">
+        <span><img src="ballons.jpg" alt="cbballons"></span>  
+        <h1>Welcome to the TAMUC Online Colorblindness Test!</h1>
+        <P>>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, debitis molestiae, eum veritatis quis incidunt corrupti, nam animi inventore saepe sequi eligendi natus in voluptas laudantium deleniti. Ab, laboriosam officiis?</P>
       </div>
-      <form class="form-horizontal" action='' method="POST">
-        <fieldset>
-          <div id="legend">
-            <legend class="fieldsetname">Create Your Account</legend>
-          </div>
-          <div class="control-group">
-            <label class="control-label"  for="firstname">First Name</label>
-            <div class="controls">
-              <input type="text" id="Firstname" name="firstname" placeholder="" class="input-xlarge">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="lastname">Last Name</label>
-            <div class="controls">
-              <input type="text" id="Lastname" name="lastname" placeholder="" class="input-xlarge">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="email">Email Address</label>
-            <div class="controls">
-              <input type="email" id="Email" name="email" placeholder="example@email.com" class="input-xlarge">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label"  for="username">Username</label>
-            <div class="controls">
-              <input type="text" id="username" name="username" placeholder="Username is case sensitive" class="input-xlarge">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label"  for="password">Password</label>
-            <div class="controls">
-              <input name="password" id="password" type="password" onkeyup='check();' />
-              <p class="help-block">Password must have atleast:</p>
-              <p class="help-block">6 Characters</p>
-              <p class="help-block">One uppercase Letter</p>
-              <p class="help-block">One Lowercase Letter</p>
-              <p class="help-block">One Number or Symbol (1,2,?,!)</p> 
-             </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label"  for="password_confirm">Re-enter password</label>
-            <div class="controls">
-              <input type="password" name="confirm_password" id="confirm_password"  onkeyup='check();'/>
-              <span id='message'></span>
-         </div>        
-          <div class="control-group">
-            <div class="controls">
-              <button class="btn btn-warning">Create Account</button>
-            </div>
-          </div>
-        </fieldset>
-    </form>
+    </section>
+    <section>
+      <div class="testbutton">
+        <h3>Take the Red/Green Test</h3>
+        <button type="button" class="btn btn-danger">Take the Test</button>
+        <h3>Take the Blue/Yellow Test</h3>
+        <button type="button" class="btn btn-primary">Take the Test!</button>
+      </div>
+    </section>
+    <section class="analyst">
+      <div class="leftcol">
+        <h5>How to take the test(instructions)</h5>
+        <p>>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quaerat facilis ad quae consequatur illo modi accusamus unde impedit dignissimos necessitatibus velit quo neque, tempora similique eos. Quisquam, modi magnam?</p>
+      </div>
+      <div class="rightcol">
+        <h5>About our analysts</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate a magni cumque nisi? Maiores voluptatibus aliquam quaerat, sint culpa enim aperiam optio quo laboriosam excepturi ut quia soluta repellat molestias.</p>
+      </div>
+    </section>
+    <section class="userstory">
+      <div class="rightside">
+        <h5>John Smith</h5>
+        <p>
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eius consequuntur eaque, enim nam atque qui dolorem architecto reprehenderit nemo aspernatur nobis? Dignissimos qui repudiandae optio perferendis, odit accusantium fuga.
+        </p>
+      </div>
+      <div class="leftside">
+        <h5>Jane Doe</h5>
+        <p>
+          >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore voluptatibus mollitia vitae non, maxime quibusdam maiores, recusandae ab corrupti atque repudiandae exercitationem vero sapiente facilis excepturi aliquid fugiat accusantium explicabo?
+        </p>
+      </div>
+    </section>
+
+
+    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
