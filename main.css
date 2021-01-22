@@ -125,3 +125,7 @@ body {
     margin-top: 2em;
 }
 
+.welcome {
+    display: inline-block
+}
+
