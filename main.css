@@ -11,23 +11,6 @@ fieldset {
     background-color:lightgray !important;
 }
 
-/* adds margin to TAMUC */
-.navbar-header {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    text-align: left;
-    font-weight: bold;
-}
-
-/* changes the font color, and size of TAMUC */
-.navbar-brand {
-    color: goldenrod;
-    font-size: 3rem;
-}
-
-/* centers the navbar links */
-
-
 /* Navbar changes */
 .nav li{
     font-size: 1.25rem;
@@ -35,12 +18,11 @@ fieldset {
     background-color: white;
     border: 2px black solid;
     margin-top: 1em;
+    margin-bottom: none;
 }
 
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
+.nav-link {
+    color: black;
 }
 
 /* background color to the site */
@@ -56,8 +38,6 @@ body {
     background-size: 300px 70px;
     background-repeat: no-repeat;
     border: 8px black solid;
-    padding: none;
-    margin: none;
 }
 
 /* boldens create account */
@@ -91,6 +71,7 @@ body {
 /* adds some margin to the top of the TAMUC logo */
 .tamuclogo {
     margin-top: 15px;
+    margin-left: 15px;
 }
 
 /* moves the forgot username to the left */
@@ -110,20 +91,11 @@ body {
     margin-top: 10em !important;
 }
 
-/* moving and styling the signup buttons */
-.signup a, .signin a {
-    float: right;
-    margin-right: 2em;
-    color: goldenrod;
-    font-weight: bold;
-    font-size: 1rem;
-    margin-top: none;
-}
+
 
 /* moved the shopping cart */
 .shopping img {
-    margin-right: 2em;
-    margin-top: 2em;
+    float: right;
 }
 
 .welcome h1 {
@@ -230,6 +202,20 @@ section.analyst {
     font-style: italic;
     text-decoration: underline;
 }
+
+.tamucbtn h1 {
+    color: goldenrod;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.tamucbtn a {
+    float: right;
+    padding: 0 .5em;
+}
+
 
 
 
