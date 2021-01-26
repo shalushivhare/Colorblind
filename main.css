@@ -25,6 +25,11 @@ fieldset {
     color: black;
 }
 
+.nav li active {
+    background-color: gray !important;
+}
+
+
 /* background color to the site */
 body {
     background-color: white;
